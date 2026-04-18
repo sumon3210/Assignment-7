@@ -52,8 +52,7 @@ const KeenKeeperProApp = () => {
   const callPerc = totalInteractions > 0 ? (callCount / totalInteractions) * 100 : 0;
   const videoPerc = totalInteractions > 0 ? (videoCount / totalInteractions) * 100 : 0;
 
-  // ফিল্টার অনুযায়ী ইভেন্টগুলো আলাদা করা
-  // ফিল্টার অনুযায়ী ইভেন্টগুলো আলাদা করা (FIXED)
+  
 const filteredEvents =
   filter === "All"
     ? timelineEvents
