@@ -194,7 +194,7 @@ const filteredEvents =
               <button className="bg-[#1E3F31] text-white px-10 py-3.5 rounded-lg shadow-xl font-bold text-sm hover:scale-105 transition-transform">+ Add a Friend</button>
             </header>
             <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5 px-6 -mt-10 mb-16">
-              {[{l:'Total Friends', v:'10'}, {l:'On Track', v:'3'}, {l:'Need Attention', v:'6'}, {l:'Interactions', v: totalInteractions}].map((s, i) => (
+              {[{l:'Total Friends', v:'8'}, {l:'On Track', v:'3'}, {l:'Need Attention', v:'6'}, {l:'Interactions This Month', v: '12'}].map((s, i) => (
                 <div key={i} className="bg-white p-6 md:p-8 rounded-2xl border border-gray-100 shadow-sm text-center">
                   <div className="text-2xl md:text-3xl font-black text-[#1E3F31]">{s.v}</div>
                   <div className="text-[10px] text-gray-400 font-black uppercase tracking-widest mt-2">{s.l}</div>
