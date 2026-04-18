@@ -188,7 +188,7 @@ const filteredEvents =
         {/* --- HOME PAGE --- */}
         {activeTab === 'home' && !selectedFriend && (
           <>
-            <header className="bg-white py-16 md:py-20 text-center border-b border-gray-50 px-6">
+            <header className="bg-[#E6F7F0] py-16 md:py-20 text-center border-b border-gray-50 px-6">
               <h1 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter leading-tight">Friends to keep close in your life</h1>
               <p className="text-gray-400 max-w-xl mx-auto text-base mb-10 leading-relaxed">Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
               <button className="bg-[#1E3F31] text-white px-10 py-3.5 rounded-lg shadow-xl font-bold text-sm hover:scale-105 transition-transform">+ Add a Friend</button>
